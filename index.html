@@ -6,6 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment 2</title>
+  <style>
+    picture {
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -29,7 +34,13 @@
     <svg viewBox="0 0 200 200" width="200" height="200">
       <line x1="0" y1="100" x2="200" y2="20" stroke="black" stroke-width="10" />
     </svg>
+    <picture>
+      <source srcset="image-1600w.jpg" media="(min-width: 901px)">
+      <source srcset="image-900w.jpg" media="(min-width: 501px)">
+      <source srcset="image-500w.jpg" media="(max-width: 500px)">
+      <img src="images/HEro-for-Biriyani 2.jpg" alt="a yummy biryani">
 
+    </picture>
 
     <article>
       <h2> What is it?</h2>
