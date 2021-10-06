@@ -1,0 +1,57 @@
+:root {
+  --site-color: #ffe5b4; /*Peach*/
+  --site-color2: #fbab60; /*Rajah*/
+  --site-color3: #cc5500; /*Burnt Orange*/
+  --site-color4: #301934; /*Dark purple */
+  --site-color5: #d0f0c0; /*Tea Green*/
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 50rem;
+}
+body {
+  color: var(--site-color4);
+  font-size: 21px;
+  background-color: var(--site-color2);
+}
+h1 {
+  font-family: "Lora", serif;
+}
+h2 {
+  color: var(--site-color3);
+  font-family: "Lora", serif;
+}
+h3 {
+  color: var(--site-color5);
+  font-family: "Lora", serif;
+}
+p,
+ul {
+  font-family: "Spectral", serif;
+}
+
+.Svgrestyle {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+picture img {
+  width: 100%;
+}
+.button {
+  background-color: royalblue;
+  color: white;
+  padding: 0.5em 0.5em;
+  text-transform: uppercase;
+}
+.button:link {
+  text-decoration: none;
+}
+.button:visited {
+  color: var(--site-color5);
+}
+.button:hover {
+  cursor: pointer;
+}
