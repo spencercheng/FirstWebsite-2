@@ -40,6 +40,10 @@ ul {
 picture img {
   width: 100%;
 }
+a:hover {
+  background-color: white;
+}
+
 .button {
   background-color: royalblue;
   color: white;
