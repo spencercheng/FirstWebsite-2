@@ -54,4 +54,5 @@ picture img {
 }
 .button:hover {
   cursor: pointer;
+  color: black;
 }
