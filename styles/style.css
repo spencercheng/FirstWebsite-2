@@ -75,3 +75,16 @@ a:hover {
 picture {
   opacity: 0.5;
 }
+
+.card .image-wrapper {
+  max-width: 380px;
+  max-height: 380px;
+}
+
+.cards {
+  display: flex;
+}
+.image {
+  width: 100%;
+  display: block;
+}
