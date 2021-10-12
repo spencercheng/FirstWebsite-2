@@ -9,9 +9,7 @@
   box-sizing: border-box;
 }
 main {
-  margin: 0 auto;
-  padding: 0 1rem;
-  max-width: 50rem;
+  margin: 0 2rem 3rem;
 }
 body {
   color: var(--site-color4);
@@ -76,19 +74,17 @@ picture {
   opacity: 0.5;
 }
 
-.card .image-wrapper {
-  max-width: 380px;
-  max-height: 380px;
+.card {
+  margin-left: 15px;
 }
-
 .cards {
   display: flex;
   object-fit: fill;
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 200px;
 }
 
 .card a {
@@ -96,4 +92,16 @@ img {
 }
 .card h1 {
   color: black;
+  margin: 0;
+  padding: 10px;
+  font-size: 25px;
+}
+.card p {
+  color: black;
+  margin: 0;
+  font-size: 15px;
+  font-family: fantasy;
+}
+.card:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
 }
